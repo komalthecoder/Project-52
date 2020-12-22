@@ -1,0 +1,163 @@
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:15px;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: 400;
+    color: white;
+}
+
+.menu:hover{
+    font-style: italic;
+    color:midnightblue;
+}
+
+*{
+    border:0cm;
+}
+
+body{
+    margin:0px;
+    padding: 50px;
+    background-image: url("bg.jpg");
+}
+
+.grid1{
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background:lightblue;
+    width: 1400px;
+    font-family:monospace;
+    font-size: 25px;
+    border:5px solid black;
+    border-radius: 50px;
+    border-top: 100px;
+}
+
+.grid1:hover{
+    background:linear-gradient(hsl(60,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%));
+}
+.grid1 img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.grid1 img:hover{
+    transform: rotate(10deg);
+}
+
+.grid2{
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color:lightblue;
+    width: 1400px;
+    font-family:monospace;
+    font-size: 25px;
+    border:5px solid black;
+    border-radius: 50px;
+    border-top: 100px;
+}
+
+.grid2:hover{
+    background:linear-gradient(hsl(60,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%));
+}
+
+.grid2 img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.grid2 img:hover{
+    transform: rotate(10deg);
+}
+
+.grid3{
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color:lightblue;
+    width: 1400px;
+    font-family:monospace;
+    font-size: 25px;
+    border:5px solid black;
+    border-radius: 50px;
+    border-top: 100px;
+}
+
+.grid3:hover{
+    background:linear-gradient(hsl(60,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%));
+}
+
+.grid3 img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.grid3 img:hover{
+    transform: rotate(10deg);
+}
+
+.grid4{
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color:lightblue;
+    width: 1400px;
+    font-family:monospace;
+    font-size: 25px;
+    border:5px solid black;
+    border-radius: 50px;
+    border-top: 100px;
+}
+
+.grid4:hover{
+    background:linear-gradient(hsl(60,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%));
+}
+
+.grid4 img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.grid4 img:hover{
+    transform: rotate(10deg);
+}
+
+.grid5{
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color:lightblue;
+    width: 1400px;
+    font-family:monospace;
+    font-size: 25px;
+    border:5px solid black;
+    border-radius: 50px;
+    border-top: 100px;
+}
+
+.grid5:hover{
+    background:linear-gradient(hsl(60,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%));
+}
+
+.grid5 img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.grid5 img:hover{
+    transform: rotate(10deg);
+}
+
+.bodyimg p{
+    font-size: 50px;
+}
+
+.bodyimg:hover{
+    color:midnightblue;
+    transition: color .3s linear 1s;
+}
+
+a:hover{
+    color:yellow;
+    transition: color .3s linear 1s;
+}
